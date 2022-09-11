@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankieta</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form action="" method="post">
+        <fieldset>
+          <div class="question1">
+            <legend>Dlaczego chcesz dołączyć do branży IT?</legend>
+            <label>
+              <input type="checkbox" required />
+              Aktualna praca mnie nie cieszy.
+            </label>
+            <label>
+              <input type="checkbox" required />
+              Za dzieciaka kodowałem
+            </label>
+            <label>
+              <input type="checkbox" required />
+              Jestem już programistą</label
+            >
+            <label
+              ><input type="checkbox" required />
+              Lubię komputery
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="question2">
+            <legend>Czy uczyłaś_eś się kodować wcześniej?</legend>
+            <label>
+              <input type="radio" name="option" required />
+              Samodzielnie</label
+            >
+            <label
+              ><input type="radio" name="option" required /> Bootcamp</label
+            >
+            <label><input type="radio" name="option" required /> Studia</label>
+            <label><input type="radio" name="option" required /> Nie</label>
+          </div>
+        </fieldset>
+        <div class="question3">
+          <label>
+            Opisz w kilku zdaniach wrażenia z nauki w innym miejscu</label
+          >
+          <textarea></textarea>
+        </div>
+        <div class="question4">
+          <label> Jaki jest twój cel związany z nauką</label>
+
+          <select required>
+            <option selected>Wybierz odpowiedź z listy</option>
+            <option>zmienić pracę</option>
+            <option>lepsza praca</option>
+            <option>rozwój w technologii</option>
+            <option>portfolio</option>
+          </select>
+        </div>
+        <div class="question5">
+          <label> Jaka ma być Twoja specjalizacja?</label>
+
+          <select>
+            <option selected>Wybierz odpowiedź z listy</option>
+            <option>frontend JS</option>
+            <option>backend JS</option>
+            <option>solidity</option>
+            <option>python</option>
+          </select>
+        </div>
+
+        <div class="question6">
+          <label>Ile godzin tygodniowo możesz poświęcić na naukę? </label>
+          <input type="number" required min="1" />
+        </div>
+        <div class="question7">
+          <label for="date">
+            Zaznacz na kalendarzu, kiedy chciałbyś zacząć naukę</label
+          >
+          <input id="date" type="date" required />
+        </div>
+
+        <div class="contact">
+          <label> Podaj swój adres email:</label>
+          <input type="email" name="email-adress" required />
+        </div>
+        <div class="contact">
+          <label> Podaj numer telefonu:</label>
+          <input type="tel" name="phone" required />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

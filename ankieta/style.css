@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100vw;
+  height: 1530px;
+
+  background: linear-gradient(180deg, #ffdbbc 0%, #ffea7f 100%);
+}
+.question1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+/*input[type="checkbox"] {
+  font-size: 10px;
+}nie zmienia mi wielkosci*/
+
+.question2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  position: relative;
+  top: 0px;
+}
+.question3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.question4 {
+  display: flex;
+  flex-direction: column;
+  background: rgba(76, 175, 80, 0);
+}
+
+.question5 {
+  display: flex;
+  flex-direction: column;
+  background: rgba(76, 175, 80, 0);
+}
+
+.question6 {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: content-box;
+}
+
+.question7 {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+fieldset {
+  border: none;
+  position: relative;
+  top: 0px;
+}
+textarea {
+  width: 548px;
+  height: 200px;
+  background: rgba(76, 175, 80, 0);
+  border: 1px solid #383c3e;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  background: rgba(76, 175, 80, 0);
+  height: 30px;
+  margin-top: 35px;
+}
+input[type="date"] {
+  background: rgba(76, 175, 80, 0);
+}
+input[type="tel"] {
+  background: rgba(76, 175, 80, 0);
+  border: 1px solid rgba(56, 60, 62, 1);
+}
+input[type="email"] {
+  background: rgba(76, 175, 80, 0);
+  border: 1px solid rgba(56, 60, 62, 1);
+}
+input[type="number"] {
+  width: 167px;
+  height: 30px;
+  background: rgba(76, 175, 80, 0);
+  border: 1px solid rgba(56, 60, 62, 1);
+}
